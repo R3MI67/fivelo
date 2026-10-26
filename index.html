@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fivelo – Politique de confidentialité</title>
+<meta name="description" content="Politique de confidentialité de l'application Fivelo.">
+<style>
+  :root { --bg:#ffffff; --text:#1c1c1e; --muted:#6e6e73; --line:#e5e5ea; --accent:#0a84ff; --card:#f5f5f7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#000000; --text:#f2f2f7; --muted:#98989f; --line:#2c2c2e; --accent:#0a84ff; --card:#1c1c1e; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 80px; }
+  h1 { font-size:30px; line-height:1.2; margin:0 0 6px; letter-spacing:-0.02em; }
+  .date { color:var(--muted); margin:0 0 28px; font-size:14px; }
+  h2 { font-size:20px; margin:40px 0 10px; padding-top:20px; border-top:1px solid var(--line); }
+  p, li { margin:0 0 12px; }
+  ul { padding-left:22px; }
+  a { color:var(--accent); }
+  .table-wrap { overflow-x:auto; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { background:var(--card); font-weight:600; }
+  footer { margin-top:56px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Fivelo – Politique de confidentialité</h1>
+<p class="date">Dernière mise à jour : 26 octobre 2026</p>
+
+<p>Cette politique explique quelles données l'application Fivelo collecte, pourquoi, et comment vous gardez la main dessus.</p>
+
+<h2>Qui sommes-nous</h2>
+<p>Fivelo est une application de classement pour les joueurs de foot à 5 amateurs, éditée par [Prénom Nom de l'éditeur], particulier résidant en France.</p>
+<p>Pour toute question sur vos données : <a href="mailto:[adresse email de contact]">[adresse email de contact]</a>.</p>
+
+<h2>Les données collectées</h2>
+<p>Fivelo ne collecte que ce qui est nécessaire pour faire fonctionner le classement. Aucune donnée de localisation, de contacts ou de navigation n'est collectée.</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Donnée</th><th>Obligatoire</th><th>Visible par les autres joueurs</th></tr></thead>
+  <tbody>
+    <tr><td>Adresse email</td><td>Oui (connexion)</td><td>Non</td></tr>
+    <tr><td>Mot de passe (stocké chiffré)</td><td>Oui</td><td>Non</td></tr>
+    <tr><td>Nom d'utilisateur</td><td>Oui</td><td>Oui</td></tr>
+    <tr><td>Prénom et nom de la fiche joueur</td><td>Oui</td><td>Oui</td></tr>
+    <tr><td>Photo de profil</td><td>Non</td><td>Oui</td></tr>
+    <tr><td>Matchs joués (date, coéquipiers, adversaires, résultat)</td><td>Oui (c'est le cœur de l'app)</td><td>Oui</td></tr>
+    <tr><td>Classement ELO et statistiques calculées</td><td>Calculé automatiquement</td><td>Oui</td></tr>
+    <tr><td>Liste d'amis</td><td>Non</td><td>Non</td></tr>
+    <tr><td>Email ou numéro de téléphone d'un joueur invité</td><td>Non</td><td>Non</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Le numéro de téléphone d'un joueur invité par SMS n'est pas enregistré : il sert uniquement à ouvrir l'application SMS du téléphone. L'email d'un joueur invité par mail est enregistré pour le relier automatiquement à son compte lorsqu'il s'inscrit.</p>
+
+<h2>À quoi servent ces données</h2>
+<p>Vos données servent uniquement à faire fonctionner l'application :</p>
+<ul>
+  <li>vous connecter et sécuriser votre compte ;</li>
+  <li>calculer votre classement ELO, vos statistiques et vos objectifs de progression ;</li>
+  <li>afficher les classements (général, entre amis, de votre groupe) ;</li>
+  <li>relier votre compte à vos matchs déjà enregistrés, grâce aux invitations et aux demandes de validation ;</li>
+  <li>empêcher les abus (limite de matchs saisis par jour, historique de qui a saisi chaque match).</li>
+</ul>
+<p>La base légale est l'exécution du service que vous demandez en créant un compte (article 6.1.b du RGPD).</p>
+
+<h2>Avec qui ces données sont partagées</h2>
+<p><strong>Nous ne vendons jamais vos données.</strong> Fivelo n'affiche aucune publicité et n'utilise aucun outil de pistage publicitaire.</p>
+<p>Certaines informations sont visibles par les autres joueurs de l'application : votre nom d'utilisateur, vos prénom et nom, votre photo, vos matchs, votre ELO et vos statistiques. C'est le principe même du classement. Votre adresse email, votre mot de passe et les coordonnées des personnes invitées ne sont jamais visibles par les autres joueurs.</p>
+<p>Pour fonctionner, l'application s'appuie sur quelques prestataires techniques, qui traitent les données uniquement pour notre compte :</p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Prestataire</th><th>Rôle</th></tr></thead>
+  <tbody>
+    <tr><td>Supabase</td><td>Hébergement de la base de données, des comptes et des photos</td></tr>
+    <tr><td>Expo</td><td>Construction et mises à jour de l'application</td></tr>
+    <tr><td>Apple et Google</td><td>Distribution de l'application via l'App Store et Google Play</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Ces prestataires sont soumis au RGPD ou à des garanties équivalentes (clauses contractuelles types de la Commission européenne) lorsque des données sont traitées hors de l'Union européenne.</p>
+
+<h2>Conservation et suppression</h2>
+<p>Vos données sont conservées tant que votre compte est actif.</p>
+<p>Vous pouvez supprimer votre compte à tout moment depuis l'application : <strong>Profil → Supprimer le compte</strong>. Cela efface définitivement votre compte, votre profil, votre liste d'amis et votre photo.</p>
+<p>Votre fiche joueur (prénom, nom) et les matchs auxquels vous avez participé restent dans l'historique des autres joueurs, car ils font partie de leurs propres résultats et de leur classement. Si vous souhaitez que votre nom en soit retiré, écrivez-nous à <a href="mailto:[adresse email de contact]">[adresse email de contact]</a> : nous anonymiserons votre fiche (par exemple « Joueur supprimé ») sous 30 jours.</p>
+<p>Les invitations non utilisées (email de la personne invitée) sont supprimées dès que l'invitation est acceptée, ou à la suppression de la fiche joueur.</p>
+
+<h2>Vos droits</h2>
+<p>Conformément au RGPD, vous disposez des droits suivants sur vos données :</p>
+<ul>
+  <li><strong>Accès</strong> : savoir quelles données nous avons sur vous ;</li>
+  <li><strong>Rectification</strong> : corriger vos informations (la plupart se modifient directement dans l'onglet Profil) ;</li>
+  <li><strong>Effacement</strong> : supprimer votre compte et vos données ;</li>
+  <li><strong>Portabilité</strong> : recevoir vos données dans un format lisible ;</li>
+  <li><strong>Opposition et limitation</strong> : vous opposer à un traitement ou en demander la limitation.</li>
+</ul>
+<p>Pour exercer ces droits, écrivez à <a href="mailto:[adresse email de contact]">[adresse email de contact]</a>. Nous répondons sous un mois maximum.</p>
+<p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez déposer une réclamation auprès de la CNIL : <a href="https://www.cnil.fr">www.cnil.fr</a>.</p>
+
+<h2>Sécurité, mineurs et modifications</h2>
+<p><strong>Sécurité.</strong> Tous les échanges entre l'application et nos serveurs sont chiffrés (HTTPS). Les mots de passe sont stockés sous forme chiffrée et ne sont jamais lisibles, même par nous. L'accès aux données est protégé par des règles qui limitent chaque utilisateur à ce qu'il a le droit de voir ou de modifier.</p>
+<p><strong>Mineurs.</strong> Fivelo n'est pas destiné aux moins de 15 ans sans l'accord d'un parent, conformément à la majorité numérique fixée à 15 ans en France. Si vous pensez qu'un enfant de moins de 15 ans nous a transmis des données sans accord parental, contactez-nous et nous les supprimerons.</p>
+<p><strong>Modifications.</strong> Nous pouvons mettre à jour cette politique. La date en haut de la page indique la dernière version. En cas de changement important, vous serez prévenu dans l'application.</p>
+
+<footer>© 2026 Fivelo</footer>
+</main>
+</body>
+</html>
